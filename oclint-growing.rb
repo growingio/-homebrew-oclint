@@ -5,7 +5,7 @@ class OclintGrowing < Formula
   desc "oclint version 0.15 support , growing rule add"
   homepage "http://oclint.org"
   url "https://github.com/growingio/oclint-growing/releases/download/v1.0/oclint-growing.zip"
-  sha256 "3d7dc7cba2d994332a5bbac57508db009f6440ae95b52106a81b7b2ed92b7ae7"
+  sha256 "790c1a3fde21fc19408f024a741a70e2267edb2449d6b78a44aa713d0c55a819"
   license ""
 
   # depends_on "cmake" => :build
