@@ -11,10 +11,6 @@ class OclintGrowing < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
     clang_version = '10.0.0'
 
     include.install Dir['include/c++'] unless File.directory? "#{include}/c++"
